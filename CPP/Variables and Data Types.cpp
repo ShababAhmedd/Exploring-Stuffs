@@ -15,7 +15,6 @@ using namespace std;
 	5. bool - stores either true or false.
 
 	Integer data type has a range. If we need longer than that "long int" can be used. "long long int is even greater than that."
-	if we
 */
 
 int main() {
