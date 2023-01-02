@@ -4,7 +4,8 @@ using namespace std;
 /*
 	Basic Data types are:
 
-	1. char - stores characters eg. a, b, c etc. Single quotes are used for characters and double quotes for string.
+	1. char - stores characters eg. a, b, c etc. Single quotes are used for characters and double quotes for string. No two characters can be stored
+		  under one char type variable.
 
 	2. int - stores integers.
 
@@ -54,6 +55,7 @@ int main() {
 
 	cout << "--------endl-------" << endl;
 	// endl is basically used to print a new line.
+	//   "\n" (back slash n) also works the same way.
 
 	// without the use of endl
 	cout << "with" << "out";
