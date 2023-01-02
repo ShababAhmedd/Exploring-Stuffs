@@ -4,7 +4,7 @@ using namespace std;
 /*
 	Basic Data types are:
 
-	1. char - stores characters eg. a, b, c etc.
+	1. char - stores characters eg. a, b, c etc. Single quotes are used for characters and double quotes for string.
 
 	2. int - stores integers.
 
