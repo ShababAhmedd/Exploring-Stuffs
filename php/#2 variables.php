@@ -16,6 +16,8 @@
         echo $variable1;
         // in php the name of the variable always starts with the sign " $ "
         // echo is basically the print function.
+        // Since php is a dynamically typed language so we do not need to mention the data type.
+        // Php is not case sensitive.
     ?>    
     
 
