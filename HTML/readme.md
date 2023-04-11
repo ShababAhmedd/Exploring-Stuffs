@@ -1,5 +1,5 @@
-This folder contains the notes that I accumulated while learning HTML.
-<br></br>
+<h4>This folder contains the notes that I accumulated while learning HTML.</h4>
+
 
 Resource Link that were used to make this note:
 <br></br>
