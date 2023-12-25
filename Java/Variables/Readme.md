@@ -11,6 +11,7 @@ To do so we have to use a println statement short for print line.<br>
 We can also use an escape sequence (\n) which will have the same effect as the println statement. <br>
 <img width="360" alt="Screenshot 2023-12-26 at 12 49 07 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/e3e1f920-d993-4cc9-a23c-a91524befeca"> <br>
 <br>
+</br>
 # Tab
 <img width="400" alt="Screenshot 2023-12-26 at 12 53 51 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/1d8c70f1-c7ea-436e-b8a8-f4fb53d0519f"> <br>
 
