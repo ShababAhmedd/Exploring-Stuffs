@@ -27,6 +27,8 @@ We can also use an escape sequence (\n) which will have the same effect as the p
 <img width="400" alt="Screenshot 2023-12-26 at 1 00 34 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/741f72d7-a565-4b50-995f-449f08cadea9">
 
 # writing a comment
-<img width="400" alt="Screenshot 2023-12-26 at 1 02 24 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/70491b1c-9e56-43fd-91c4-878b7b79c3c6">
+<img width="400" alt="Screenshot 2023-12-26 at 1 02 24 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/70491b1c-9e56-43fd-91c4-878b7b79c3c6"> <br>
 
-
+<img width="400" alt="Screenshot 2023-12-26 at 1 09 38 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/5b598e97-e80d-45be-a9d2-190f9d250fbe"> <br>
+<br>
+</br>
