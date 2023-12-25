@@ -20,7 +20,9 @@ We can also use an escape sequence (\n) which will have the same effect as the p
 
 # Printing with quotes
 <img width="400" alt="Screenshot 2023-12-26 at 12 56 57 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/dcd6db94-4e3e-4380-98f7-e3563006d702">
+<br>
+</br>
 
-
-
+# Displaying a backslash
+<img width="400" alt="Screenshot 2023-12-26 at 1 00 34 AM" src="https://github.com/ShababAhmedd/Exploring-Stuffs/assets/33228006/741f72d7-a565-4b50-995f-449f08cadea9">
 
