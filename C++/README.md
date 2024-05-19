@@ -22,3 +22,32 @@ int main() {
 
 // endl is equivalent to "\n"
 ```
+
+
+# Taking input
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int a, b;
+   cin>>a>>b;
+
+   return 0;
+}
+```
+
+
+# Type casting
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int a=10;
+   long long int b = (long long int)(a);
+   cout<<b<<endl;
+
+   return 0;
+}
+```
