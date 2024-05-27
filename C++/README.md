@@ -82,3 +82,17 @@ int main() {
    return 0;
 }
 ```
+
+
+
+# SetPrecision
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   double a = 10.564738291;
+   cout << fixed << setprecision(2) << a << endl;
+   return 0;
+}
+```
