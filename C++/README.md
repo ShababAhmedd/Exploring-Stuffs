@@ -110,3 +110,29 @@ int main() {
    return 0;
 }
 ```
+
+
+
+# Switch Case
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int a = 1;
+
+   switch(a){
+   case 0:
+      cout << "zero" << endl;
+      break;
+   case 1:
+      cout << "one" << endl;
+      break;
+   case 2:
+      cout << "two" << endl;
+      break;
+   }
+
+   return 0;
+}
+```
