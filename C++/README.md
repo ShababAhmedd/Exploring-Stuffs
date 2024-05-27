@@ -131,6 +131,8 @@ int main() {
    case 2:
       cout << "two" << endl;
       break;
+   default:
+      cout << "Numbers don't match" << endl;
    }
 
    return 0;
