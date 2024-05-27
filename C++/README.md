@@ -121,7 +121,7 @@ using namespace std;
 int main() {
    int a = 1;
 
-   switch(a){
+   switch (a){
    case 0:
       cout << "zero" << endl;
       break;
@@ -133,6 +133,26 @@ int main() {
       break;
    default:
       cout << "Numbers don't match" << endl;
+   }
+
+   return 0;
+}
+```
+
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int a = 2;
+
+   switch (a % 2){
+   case 0:
+      cout << "even" << endl;
+      break;
+   case 1:
+      cout << "odd" << endl;
+      break;
    }
 
    return 0;
