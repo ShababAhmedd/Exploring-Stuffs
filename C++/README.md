@@ -158,3 +158,24 @@ int main() {
    return 0;
 }
 ```
+
+
+
+# min_max
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int a = 1;
+  int b = 2;
+  int c = 3;
+  int d = 4;
+
+  int max_val = max({a, b, c, d});
+  cout << max_val << endl;
+
+  int min_val = min({a, b, c, d});
+  cout << min_val << endl;
+}
+```
