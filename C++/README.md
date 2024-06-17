@@ -212,7 +212,7 @@ int main() {
   return 0;
 }
 ```
-using getline() function {_which in C is fgets()_} if there are spaces in the string. 
+using getline() function _{which in C is fgets()}_ if there are spaces in the string. 
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
