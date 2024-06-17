@@ -212,3 +212,17 @@ int main() {
   return 0;
 }
 ```
+using getline() function ( which in C is fgets() ) if there are spaces in the string. 
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  char s[100];
+  cin.getline(s, sizeof(s));
+
+  cout << s;
+
+  return 0;
+}
+```
