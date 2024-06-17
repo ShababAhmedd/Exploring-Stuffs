@@ -212,7 +212,7 @@ int main() {
   return 0;
 }
 ```
-using getline() function if there are spaces in the string. 
+getline() function if there are spaces in the string. 
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
@@ -222,6 +222,25 @@ int main() {
   cin.getline(s, sizeof(s));
 
   cout << s;
+
+  return 0;
+}
+```
+getchar()
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  char s[100];
+  int a;
+  cin >> a;
+  cout << a << endl;
+
+  getchar(); // this function takes the "enter" after the variable a.
+
+  cin.getline(s, sizeof(s));
+  cout << s << endl;
 
   return 0;
 }
