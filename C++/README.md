@@ -339,18 +339,19 @@ class Student
 public:
   char name[100];
   int semester;
-  double cgpa;
+  char major[100];
 };
 
 
 int main() {
   Student a;
-  char temp[] = "Albert";
+  char temp[] = "safir";
   strcpy(a.name, temp);
-  a.semester = 7;
-  a.cgpa = 3.00;
+  a.semester = 12;
+  char tmp[] = "CSE";
+  strcpy(a.major, tmp);
 
-  cout << a.name << " " << a.semester << " " << a.cgpa << endl;
+  cout << a.name << " " << a.major << " " << a.semester << endl;
   return 0;
 }
 ```
