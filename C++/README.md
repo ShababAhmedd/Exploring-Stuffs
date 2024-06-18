@@ -269,3 +269,31 @@ int main() {
   return 0;
 }
 ```
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int *arr_return() {
+  int n;
+  cin >> n;
+  int *arr = new int [n];
+
+  for (int i = 0; i < n; i++) {
+    cin >> arr[i];
+  }
+
+  return arr;
+}
+
+
+int main() {
+
+  int *a = arr_return();
+
+  for (int i = 0; i < 5; i++) {
+    cout << a[i] << endl;
+  }
+
+  return 0;
+}
+```
