@@ -452,7 +452,7 @@ int main() {
   return 0;
 }
 ```
-<h4>Returning the object through a functinon</h4>
+<h4>Returning the object through a function</h4>
 
 ```C++
 #include<bits/stdc++.h>
