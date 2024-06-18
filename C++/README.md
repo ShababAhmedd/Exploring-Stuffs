@@ -373,7 +373,7 @@ public:
   char name[100];
   int semester;
   char major[100];
-  Student(char *name, int semester, char *major) {
+  Student(char *name, char *major, int semester) {
     strcpy(this->name, name);
     this->semester = semester;
     strcpy(this->major, major);
@@ -403,7 +403,7 @@ public:
   char name[100];
   int semester;
   char major[100];
-  Student(char *name, int semester, char *major) {
+  Student(char *name, char *major, int semester) {
     strcpy(this->name, name);
     this->semester = semester;
     strcpy(this->major, major);
@@ -438,19 +438,12 @@ public:
   char name[100];
   int semester;
   char major[100];
-  Student(char *name, char *major, char semester) {
+  Student(char *name, char *major, int semester) {
     strcpy(this->name, name);
     strcpy(this->major, major);
     this->semester = semester;
   }
 };
-
-
-// Student func() {
-//   Student a("Mashrur", 7, "CSE");
-//   return a;
-// }
-
 
 int main() {
   Student *a = new Student("Shabab", "CSE", 7);
