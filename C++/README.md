@@ -424,3 +424,38 @@ int main() {
   return 0;
 }
 ```
+
+
+
+# Dynamic Object
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student
+{
+public:
+  char name[100];
+  int semester;
+  char major[100];
+  Student(char *name, char *major, char semester) {
+    strcpy(this->name, name);
+    strcpy(this->major, major);
+    this->semester = semester;
+  }
+};
+
+
+// Student func() {
+//   Student a("Mashrur", 7, "CSE");
+//   return a;
+// }
+
+
+int main() {
+  Student *a = new Student("Shabab", "CSE", 7);
+  cout << a->name << " " << a->major << " " << a->semester << endl;
+
+  return 0;
+}
+```
