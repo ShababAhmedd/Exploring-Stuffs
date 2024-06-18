@@ -386,3 +386,35 @@ int main() {
   return 0;
 }
 ```
+Returning the object through a function. 
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student
+{
+public:
+  char name[100];
+  int semester;
+  char major[100];
+  Student(char *name, int semester, char *major) {
+    strcpy(this->name, name);
+    this->semester = semester;
+    strcpy(this->major, major);
+  }
+};
+
+
+Student func() {
+  Student a("Mashrur", 7, "CSE");
+  return a;
+}
+
+
+int main() {
+  Student ans = func();
+  cout << ans.name << " " << ans.major << " " << ans.semester << endl;
+
+  return 0;
+}
+```
