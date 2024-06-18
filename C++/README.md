@@ -485,3 +485,24 @@ int main() {
   return 0;
 }
 ```
+
+
+
+# Sorting
+<h5>Sorting an array using built-in function</h5>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int arr[] = {10, 50, 20, 40, 30};
+  // sort(arr, arr + 5);
+  sort(arr, arr + 5, greater<int>()); //descending sorting.
+  for (int i = 0; i < 5; i++) {
+    cout << arr[i] << endl;
+  }
+
+  return 0;
+}
+```
