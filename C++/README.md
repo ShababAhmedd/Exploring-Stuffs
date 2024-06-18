@@ -355,3 +355,34 @@ int main() {
   return 0;
 }
 ```
+
+
+
+# Constructors
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student
+{
+public:
+  char name[100];
+  int semester;
+  char major[100];
+  Student(char *name, int semester, char *major) {
+    strcpy(this->name, name);
+    this->semester = semester;
+    strcpy(this->major, major);
+  }
+};
+
+
+int main() {
+  Student a("Mashrur", 7, "CSE");
+  Student b("Safir", 12, "CS");
+
+  cout << a.name << " " << a.major << " " << a.semester << endl;
+  cout << b.name << " " << b.major << " " << b.semester << endl;
+  return 0;
+}
+```
