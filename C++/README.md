@@ -412,7 +412,7 @@ public:
 
 
 Student func() {
-  Student a("Mashrur", 7, "CSE");
+  Student a("Mashrur", "CSE", 7);
   return a;
 }
 
@@ -449,6 +449,39 @@ int main() {
   Student *a = new Student("Shabab", "CSE", 7);
   cout << a->name << " " << a->major << " " << a->semester << endl;
 
+  return 0;
+}
+```
+<h4>Returning the object through a functinon</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student
+{
+public:
+  char name[100];
+  int semester;
+  char major[100];
+  Student(char *name, char *major, int semester) {
+    strcpy(this->name, name);
+    strcpy(this->major, major);
+    this->semester = semester;
+  }
+};
+
+
+Student *func() {
+  Student *a = new Student ("Mashrur", "CSE", 7);
+  return a;
+}
+
+
+int main() {
+  Student *ans = func();
+  cout << ans->name << " " << ans->major << " " << ans->semester << endl;
+  delete ans;
   return 0;
 }
 ```
