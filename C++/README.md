@@ -212,7 +212,9 @@ int main() {
   return 0;
 }
 ```
-getline() function if there are spaces in the string. 
+
+<h4>getline() function if there are spaces in the string. </h4>
+
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
@@ -226,7 +228,9 @@ int main() {
   return 0;
 }
 ```
-getchar()
+
+<h4>getchar()</h4>
+
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
