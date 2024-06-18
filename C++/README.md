@@ -387,7 +387,7 @@ int main() {
 }
 ```
 
-<h3>Returning the object through a function.</h3>
+<h4>Returning the object through a function.</h4>
 
 ```C++
 #include<bits/stdc++.h>
