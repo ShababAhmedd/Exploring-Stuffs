@@ -386,7 +386,7 @@ int main() {
   return 0;
 }
 ```
-Returning the object through a function. 
+<h3>Returning the object through a function.</h3>
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
