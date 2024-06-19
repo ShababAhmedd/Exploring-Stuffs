@@ -273,6 +273,8 @@ int main() {
   return 0;
 }
 ```
+<h4>Returning dynamic array through a function</h4>
+
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
@@ -301,6 +303,7 @@ int main() {
   return 0;
 }
 ```
+<h4>Increasing the size of the dynamic array. </h4>
 
 ```C++
 #include<bits/stdc++.h>
