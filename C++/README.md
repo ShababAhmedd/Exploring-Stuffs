@@ -509,3 +509,24 @@ int main() {
   return 0;
 }
 ```
+
+
+
+# String
+# String iterators
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    string s = "hello_world_!";
+    for (string::iterator it = s.begin(); it < s.end(); it++) {
+        cout << *it <<  endl;
+    }
+
+    return 0;
+}
+
+// for newer compilers we can write "auto" instead of writing "string::iterator"
+```
