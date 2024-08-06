@@ -513,7 +513,7 @@ int main() {
 
 
 # String
-# String iterators
+<h4>String Iterators</h4>
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
