@@ -610,3 +610,20 @@ int main() {
     return 0;
 }
 ```
+
+
+<h4>Sorting a string</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    string a = "adcb";
+    sort(a.begin(), a.end());
+    cout << a << endl;
+
+    return 0;
+}
+```
