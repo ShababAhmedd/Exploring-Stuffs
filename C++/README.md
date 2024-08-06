@@ -531,3 +531,28 @@ int main() {
 
 // for newer compilers we can write "auto" instead of writing "string::iterator"
 ```
+
+
+<h4>String input with space</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    int x;
+    cin >> x;
+    //getchar();
+    cin.ignore();   // ignores a character.
+
+    string s;
+    getline(cin, s);
+
+    cout << x << endl;
+    cout << s << endl;
+
+    return 0;
+}
+
+```
