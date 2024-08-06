@@ -627,3 +627,21 @@ int main() {
     return 0;
 }
 ```
+
+
+<h4>Range based for loop</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    string s = "Hey, this is Safir!";
+    for (char c : s) {
+        cout << c << endl;
+    }
+
+    return 0;
+}
+```
