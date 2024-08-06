@@ -583,3 +583,30 @@ int main() {
     return 0;
 }
 ```
+
+
+<h4>String Constructor</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    string a("hello world");
+    cout << a << endl;
+
+    string b("hello world", 4);
+    cout << b << endl;
+
+    string x = "hello world";
+    string c(x, 4);
+    cout << c << endl;
+
+    string d(100, 's');
+    cout << d;
+
+
+    return 0;
+}
+```
