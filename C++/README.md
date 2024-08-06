@@ -492,7 +492,7 @@ int main() {
 
 
 # Sorting
-<h5>Sorting an array using built-in function</h5>
+<h4>Sorting an array using built-in function</h4>
 
 ```C++
 #include<bits/stdc++.h>
@@ -514,6 +514,7 @@ int main() {
 
 # String
 <h4>String Iterators</h4>
+
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
