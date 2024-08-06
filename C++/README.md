@@ -645,3 +645,27 @@ int main() {
     return 0;
 }
 ```
+
+
+<h4>Reverse word printing using stringstream</h4>
+
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+void print(stringstream & x) {
+    string word;
+    if (x >> word) {
+        print(x);
+        cout << word << endl;
+    }
+}
+
+int main() {
+    string s = "This is Mashrur!";
+    stringstream x(s);
+    print(x);
+
+    return 0;
+}
+```
