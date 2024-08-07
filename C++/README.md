@@ -785,3 +785,35 @@ int main() {
     return 0;
 }
 ```
+
+
+
+# Dynamic object copy
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    Student(string name, int age) {
+        this->name = name;
+        this->age = age;
+    }
+
+};
+
+int main() {
+    Student *rakib = new Student("rakib", 23);
+    Student *sakib = new Student("sakib", 25);
+    //rakib->name = sakib->name;
+    //rakib->age = sakib->age;
+    *rakib = *sakib;
+    delete sakib;
+    cout << rakib->name << " " << rakib->age << endl;
+
+    return 0;
+}
+```
