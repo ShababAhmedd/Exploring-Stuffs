@@ -863,7 +863,7 @@ Akib Khan
 
 
 
-## Getting min/max object from array
+### Getting min/max object from array
 ```C++
 #include<bits/stdc++.h>
 using namespace std;
