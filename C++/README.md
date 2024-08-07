@@ -860,3 +860,46 @@ Akib Khan
 12 90
 */
 ```
+
+
+
+## Getting min/max object from array
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int roll;
+    int marks;
+};
+
+int main() {
+    int n;
+    cin >> n;
+    Student *arr = new Student[n];
+
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i].name >> arr[i].roll >> arr[i].marks;
+    }
+
+    Student min;
+    min.marks = INT_MAX;
+    for (int i = 0; i < n; i++) {
+        if (arr[i].marks < min.marks) {
+            min = arr[i];
+        }
+    }
+    cout << min.name << " " << min.roll << " " << min.marks << endl;
+
+    return 0;
+}
+
+----SAMPLE_INPUT----
+3
+Rifat 10 99
+Sifat 11 95
+Akib 12 90
+*/
+```
