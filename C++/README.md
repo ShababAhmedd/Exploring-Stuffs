@@ -492,6 +492,84 @@ int main() {
 
 
 # Sorting
+
+<h4>String Built-in Functions</h4>
+
+
+
+## Capacity
+
+- `s.size()`  
+  Returns the size of the string.
+
+- `s.max_size()`  
+  Returns the maximum size that the string can hold.
+
+- `s.capacity()`  
+  Returns the current available capacity of the string.
+
+- `s.clear()`  
+  Clears the string.
+
+- `s.empty()`  
+  Returns `true` if the string is empty, otherwise `false`.
+
+- `s.resize()`  
+  Changes the size of the string.
+
+## Element Access
+
+- `s[i]`  
+  Accesses the `i`-th index of the string.
+
+- `s.at(i)`  
+  Accesses the `i`-th index of the string.
+
+- `s.back()`  
+  Accesses the last element of the string.
+
+- `s.front()`  
+  Accesses the first element of the string.
+
+## Modifiers
+
+- `s +=`  
+  Appends another string.
+
+- `s.append()`  
+  Appends another string.
+
+- `s.push_back()`  
+  Adds a character to the end of the string.
+
+- `s.pop_back()`  
+  Removes the last character of the string.
+
+- `s =`  
+  Assigns a new string value.
+
+- `s.assign()`  
+  Assigns a new string value.
+
+- `s.erase()`  
+  Erases characters from the string.
+
+- `s.replace()`  
+  Replaces a portion of the string.
+
+- `s.insert()`  
+  Inserts a portion at a specific position.
+
+## Iterators
+
+- `s.begin()`  
+  Pointer to the first element.
+
+- `s.end()`  
+  Pointer to the next element after the last element of the string.
+
+
+
 <h4>Sorting an array using built-in function</h4>
 
 ```C++
