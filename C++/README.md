@@ -848,4 +848,15 @@ int main() {
 
     return 0;
 }
+
+/*
+----SAMPLE_INPUT----
+3
+Rifat khan
+10 99
+Sifat 
+11 95
+Akib Khan
+12 90
+*/
 ```
