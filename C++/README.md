@@ -669,3 +669,42 @@ int main() {
     return 0;
 }
 ```
+
+
+# Function inside class
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Person {
+public:
+    string name;
+    int age;
+    int test1;
+    int test2;
+
+    Person(string nm, int ag, int tst1, int tst2) {
+        name = nm;
+        age = ag;
+        test1 = tst1;
+        test2 = tst2;
+    }
+
+    void print() {
+        cout << name << endl;
+        cout << age << endl;
+    }
+
+    int marks() {
+        return test1 + test2;
+    }
+};
+
+int main() {
+    Person shabab("Mashrur", 24, 10, 20);
+    shabab.print();
+    cout << shabab.marks() << endl;
+
+    return 0;
+}
+```
