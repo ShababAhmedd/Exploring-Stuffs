@@ -896,6 +896,7 @@ int main() {
     return 0;
 }
 
+/*
 ----SAMPLE_INPUT----
 3
 Rifat 10 99
