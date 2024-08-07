@@ -904,3 +904,56 @@ Sifat 11 95
 Akib 12 90
 */
 ```
+
+
+
+### Sorting array of objects using selection sort
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int roll;
+    int marks;
+};
+
+int main() {
+    int n;
+    cin >> n;
+    Student *arr = new Student[n];
+
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i].name >> arr[i].roll >> arr[i].marks;
+    }
+
+    // selection sort
+    // sorting based on marks but if marks are equal then sorting based on roll no.
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i].marks > arr[j].marks) {
+                swap(arr[i], arr[j]);
+            }
+            if (arr[i].marks == arr[j].marks) {
+                if (arr[i].roll > arr[j].roll) {
+                    swap(arr[i], arr[j]);
+                }
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        cout << arr[i].name << " " << arr[i].roll << " " << arr[i].marks << " " << endl;
+    }
+
+    return 0;
+}
+
+/*
+----SAMPLE_INPUT----
+3
+Rifat 10 99
+Sifat 11 90
+Akib 12 90
+*/
+```
