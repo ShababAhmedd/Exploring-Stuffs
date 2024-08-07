@@ -493,8 +493,29 @@ int main() {
 
 # Sorting
 
-<h4>String Built-in Functions</h4>
+<h4>Sorting an array using built-in function</h4>
 
+```C++
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int arr[] = {10, 50, 20, 40, 30};
+  // sort(arr, arr + 5);
+  sort(arr, arr + 5, greater<int>()); //descending sorting.
+  for (int i = 0; i < 5; i++) {
+    cout << arr[i] << endl;
+  }
+
+  return 0;
+}
+```
+
+
+
+# String
+
+<h4>String Built-in Functions</h4>
 
 
 ## Capacity
@@ -569,28 +590,6 @@ int main() {
   Pointer to the next element after the last element of the string.
 
 
-
-<h4>Sorting an array using built-in function</h4>
-
-```C++
-#include<bits/stdc++.h>
-using namespace std;
-
-int main() {
-  int arr[] = {10, 50, 20, 40, 30};
-  // sort(arr, arr + 5);
-  sort(arr, arr + 5, greater<int>()); //descending sorting.
-  for (int i = 0; i < 5; i++) {
-    cout << arr[i] << endl;
-  }
-
-  return 0;
-}
-```
-
-
-
-# String
 <h4>String Iterators</h4>
 
 ```C++
