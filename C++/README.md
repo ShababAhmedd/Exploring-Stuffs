@@ -600,7 +600,7 @@ using namespace std;
 int main() {
     string s = "hello_world_!";
     for (string::iterator it = s.begin(); it < s.end(); it++) {
-        cout << *it <<  endl;
+        cout << *it <<  endl;   // extracts char by char
     }
 
     return 0;
