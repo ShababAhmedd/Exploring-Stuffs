@@ -715,7 +715,7 @@ using namespace std;
 
 int main() {
     string s = "Hey, this is Safir!";
-    for (char c : s) {
+    for (char c : s) {     // extracts char by char
         cout << c << endl;
     }
 
