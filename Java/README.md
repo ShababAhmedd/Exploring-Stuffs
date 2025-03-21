@@ -49,11 +49,20 @@ public class learning {
 
 
 # Data Types
-### Long L
+### Long L 8 byte
 ```java
 public class learning {
     public static void main(String[] args) {
         long a = 110229338447556L;
+    }
+}
+```
+
+### Float f 4 byte
+```java
+public class learning {
+    public static void main(String[] args) {
+        float a = 12.345f;
     }
 }
 ```
