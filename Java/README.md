@@ -46,3 +46,14 @@ public class learning {
     }
 }
 ```
+
+
+# Data Types
+### Long L
+```java
+public class learning {
+    public static void main(String[] args) {
+        long a = 110229338447556L;
+    }
+}
+```
