@@ -8,3 +8,14 @@ public class learning {
 
 }
 ```
+
+
+# Escape Sequence
+### \"
+```java
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("This is \"Mashrur\"");
+    }
+}
+```
