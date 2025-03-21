@@ -75,3 +75,13 @@ public class learning {
     }
 }
 ```
+
+### boolean
+```java
+public class learning {
+    public static void main(String[] args) {
+        boolean t = true;
+        boolean f = false;
+    }
+}
+```
