@@ -49,7 +49,7 @@ public class learning {
 
 
 # Data Types
-### Long L (8 byte)
+### Long L - 8 byte
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -58,7 +58,7 @@ public class learning {
 }
 ```
 
-### Float f (4 byte)
+### Float f - 4 byte
 ```java
 public class learning {
     public static void main(String[] args) {
