@@ -28,3 +28,13 @@ public class learning {
     }
 }
 ```
+
+
+### \\n
+```java
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("This is\nSafir");
+    }
+}
+```
