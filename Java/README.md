@@ -66,3 +66,12 @@ public class learning {
     }
 }
 ```
+
+### Double - 8 byte
+```java
+public class learning {
+    public static void main(String[] args) {
+        double a = 12.3454;
+    }
+}
+```
