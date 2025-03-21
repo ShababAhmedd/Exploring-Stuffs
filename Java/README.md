@@ -85,3 +85,12 @@ public class learning {
     }
 }
 ```
+
+### character
+```java
+public class learning {
+    public static void main(String[] args) {
+        char c = '&';
+    }
+}
+```
