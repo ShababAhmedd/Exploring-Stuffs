@@ -197,7 +197,7 @@ public class learning {
     }
 }
 ```
-### Math.abs
+### Math.abs()
 ```java
 public class learning {
     public static void main(String[] args) {
