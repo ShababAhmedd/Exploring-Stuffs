@@ -9,6 +9,7 @@ public class learning {
 }
 ```
 <br></br>
+
 # Escape Sequence
 ### \\"
 ```java
@@ -18,7 +19,6 @@ public class learning {
     }
 }
 ```
-
 ### \\t
 ```java
 public class learning {
@@ -27,7 +27,6 @@ public class learning {
     }
 }
 ```
-
 ### \\n
 ```java
 public class learning {
@@ -36,7 +35,6 @@ public class learning {
     }
 }
 ```
-
 ### \\\
 ```java
 public class learning {
@@ -45,7 +43,7 @@ public class learning {
     }
 }
 ```
-
+<br></br>
 
 # Data Types
 ### Long L - 8 byte
@@ -56,7 +54,6 @@ public class learning {
     }
 }
 ```
-
 ### Float f - 4 byte
 ```java
 public class learning {
@@ -65,7 +62,6 @@ public class learning {
     }
 }
 ```
-
 ### Double - 8 byte
 ```java
 public class learning {
@@ -74,7 +70,6 @@ public class learning {
     }
 }
 ```
-
 ### boolean
 ```java
 public class learning {
@@ -84,7 +79,6 @@ public class learning {
     }
 }
 ```
-
 ### character
 ```java
 public class learning {
@@ -93,7 +87,7 @@ public class learning {
     }
 }
 ```
-
+<br></br>
 
 # Type Casting
 ### Widening Casting
@@ -106,7 +100,6 @@ public class learning {
     }
 }
 ```
-
 ### Narrowing Casting
 ```java
 public class learning {
@@ -117,7 +110,7 @@ public class learning {
     }
 }
 ```
-
+<br></br>
 
 # Parsing
 ### int
