@@ -207,3 +207,12 @@ public class learning {
     }
 }
 ```
+### Math.round()
+```java
+public class learning {
+    public static void main(String[] args) {
+        double a = 2.098;
+        System.out.println(Math.round(a));
+    }
+}
+```
