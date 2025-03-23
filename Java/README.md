@@ -151,9 +151,10 @@ public class learning {
     }
 }
 ```
+<br></br>
 
 # Math Functions
-### Math.max
+### Math.max()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -164,7 +165,7 @@ public class learning {
     }
 }
 ```
-### Math.min
+### Math.min()
 ```java
 public class learning {
     public static void main(String[] args) {
