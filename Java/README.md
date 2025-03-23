@@ -118,3 +118,34 @@ public class learning {
     }
 }
 ```
+
+
+# Parsing
+### int
+```java
+ public class learning {
+    public static void main(String[] args) {
+        String num1 = "100";
+        String num2 = "100";
+
+        int n1 = Integer.parseInt(num1);
+        int n2 = Integer.parseInt(num2);
+
+        System.out.println(n1+n2);
+    }
+}
+```
+### double
+```java
+public class learning {
+    public static void main(String[] args) {
+        String num1 = "100.5";
+        String num2 = "100.5";
+
+        double n1 = Double.parseDouble(num1);
+        double n2 = Double.parseDouble(num2);
+
+        System.out.println(n1+n2);
+    }
+}
+```
