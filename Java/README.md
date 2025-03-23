@@ -186,7 +186,7 @@ public class learning {
     }
 }
 ```
-### Math.pow
+### Math.pow()
 ```java
 public class learning {
     public static void main(String[] args) {
