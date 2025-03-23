@@ -216,3 +216,21 @@ public class learning {
     }
 }
 ```
+### Math.floor()
+```java
+public class learning {
+    public static void main(String[] args) {
+        double a = 10.5;
+        System.out.println(Math.floor(a));
+    }
+}
+```
+### Math.ceil()
+```java
+public class learning {
+    public static void main(String[] args) {
+        double a = 10.5;
+        System.out.println(Math.ceil(a));
+    }
+}
+```
