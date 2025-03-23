@@ -176,3 +176,13 @@ public class learning {
     }
 }
 ```
+### Math.sqrt()
+```java
+public class learning {
+    public static void main(String[] args) {
+        int n1 = 16;
+        double ans = Math.sqrt(n1);
+        System.out.println(ans);
+    }
+}
+```
