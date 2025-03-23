@@ -197,3 +197,13 @@ public class learning {
     }
 }
 ```
+### Math.abs
+```java
+public class learning {
+    public static void main(String[] args) {
+        int a = -2;
+        int ans = Math.abs(a);
+        System.out.println(ans);
+    }
+}
+```
