@@ -151,3 +151,27 @@ public class learning {
     }
 }
 ```
+
+# Math Functions
+### Math.max
+```java
+public class learning {
+    public static void main(String[] args) {
+        int n1 = 10;
+        int n2 = 20;
+        int max = Math.max(n1, n2);
+        System.out.println(max);
+    }
+}
+```
+### Math.min
+```java
+public class learning {
+    public static void main(String[] args) {
+        int n1 = 10;
+        int n2 = 20;
+        int max = Math.min(n1, n2);
+        System.out.println(max);
+    }
+}
+```
