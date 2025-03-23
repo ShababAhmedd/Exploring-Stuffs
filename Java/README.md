@@ -141,3 +141,13 @@ public class learning {
     }
 }
 ```
+### converting int to string
+```java
+public class learning {
+    public static void main(String[] args) {
+        int num = 10;
+        String str = String.valueOf(num);
+        System.out.println(str);
+    }
+}
+```
