@@ -243,7 +243,7 @@ public class learning {
     }
 }
 ```
-###### Generating random number from a given range
+#### Generating random number from a given range
 ```java
 public class learning {
     public static void main(String[] args) {
