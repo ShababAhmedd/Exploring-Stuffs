@@ -273,6 +273,19 @@ public class learning {
     }
 }
 ```
+## Double
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("Enter a floating number");
+        Scanner sc = new Scanner(System.in);
+       double nm = sc.nextDouble();
+        System.out.println("The given floating number is " + nm);
+    }
+}
+```
 ## String
 ```java
 import java.util.Scanner;
