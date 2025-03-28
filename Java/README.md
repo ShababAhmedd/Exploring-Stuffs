@@ -312,3 +312,22 @@ public class learning {
     }
 }
 ```
+
+
+# Exception Handling
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        try{
+            int a = 10/0;
+        } catch (Exception e) {
+            System.out.println("Divided by zero");
+        }
+        finally {
+            System.out.println("Task executed");
+        }
+    }
+}
+```
