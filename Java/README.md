@@ -11,7 +11,7 @@ public class learning {
 <br></br>
 
 # Escape Sequence
-### \\"
+## \\"
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class learning {
     }
 }
 ```
-### \\t
+## \\t
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class learning {
     }
 }
 ```
-### \\n
+## \\n
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class learning {
     }
 }
 ```
-### \\\
+## \\\
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -46,7 +46,7 @@ public class learning {
 <br></br>
 
 # Data Types
-### Long L - 8 byte
+## Long L - 8 byte
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class learning {
     }
 }
 ```
-### Float f - 4 byte
+## Float f - 4 byte
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -62,7 +62,7 @@ public class learning {
     }
 }
 ```
-### Double - 8 byte
+## Double - 8 byte
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -70,7 +70,7 @@ public class learning {
     }
 }
 ```
-### boolean
+## boolean
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class learning {
     }
 }
 ```
-### character
+## character
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -90,7 +90,7 @@ public class learning {
 <br></br>
 
 # Type Casting
-### Widening Casting
+## Widening Casting
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -100,7 +100,7 @@ public class learning {
     }
 }
 ```
-### Narrowing Casting
+## Narrowing Casting
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -113,7 +113,7 @@ public class learning {
 <br></br>
 
 # Parsing
-### int
+## int
 ```java
  public class learning {
     public static void main(String[] args) {
@@ -127,7 +127,7 @@ public class learning {
     }
 }
 ```
-### double
+## double
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -141,7 +141,7 @@ public class learning {
     }
 }
 ```
-### converting int to string
+## converting int to string
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -154,7 +154,7 @@ public class learning {
 <br></br>
 
 # Math Functions
-### Math.max()
+## Math.max()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -165,7 +165,7 @@ public class learning {
     }
 }
 ```
-### Math.min()
+## Math.min()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -176,7 +176,7 @@ public class learning {
     }
 }
 ```
-### Math.sqrt()
+## Math.sqrt()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -186,7 +186,7 @@ public class learning {
     }
 }
 ```
-### Math.pow()
+## Math.pow()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -197,7 +197,7 @@ public class learning {
     }
 }
 ```
-### Math.abs()
+## Math.abs()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -207,7 +207,7 @@ public class learning {
     }
 }
 ```
-### Math.round()
+## Math.round()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -216,7 +216,7 @@ public class learning {
     }
 }
 ```
-### Math.floor()
+## Math.floor()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -225,7 +225,7 @@ public class learning {
     }
 }
 ```
-### Math.ceil()
+## Math.ceil()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -234,7 +234,7 @@ public class learning {
     }
 }
 ```
-### Math.random()
+## Math.random()
 ```java
 public class learning {
     public static void main(String[] args) {
@@ -243,7 +243,7 @@ public class learning {
     }
 }
 ```
-#### Generating random number from a given range
+### Generating random number from a given range
 ```java
 public class learning {
     public static void main(String[] args) {
