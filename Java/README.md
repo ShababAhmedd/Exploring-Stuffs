@@ -243,3 +243,17 @@ public class learning {
     }
 }
 ```
+###### Generating random number from a given range
+```java
+public class learning {
+    public static void main(String[] args) {
+        int min = 10;
+        int max = 100;
+
+        double random = Math.random();
+
+        int randomNumber = (int) (min + random * (max - min));
+        System.out.println(randomNumber);
+    }
+}
+```
