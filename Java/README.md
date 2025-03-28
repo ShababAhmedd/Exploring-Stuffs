@@ -234,3 +234,12 @@ public class learning {
     }
 }
 ```
+### Math.random()
+```java
+public class learning {
+    public static void main(String[] args) {
+        double num = Math.random();     // Range[0-1]
+        System.out.println(num);
+    }
+}
+```
