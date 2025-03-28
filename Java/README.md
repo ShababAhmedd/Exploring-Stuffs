@@ -334,7 +334,8 @@ public class learning {
 ```
 <br></br>
 
-# If Else
+# Statements
+## If Else
 ```java
 import java.util.Scanner;
 
@@ -354,4 +355,24 @@ public class learning {
     }
 }
 ```
-<br></br>
+## Swtich Case
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        int a = 2;
+
+        switch(a){
+            case 0:
+                System.out.println("0");
+                break;
+            case 1:
+                System.out.println("1");
+                break;
+            default:
+                System.out.println("Not a binary number");
+        }
+    }
+}
+```
