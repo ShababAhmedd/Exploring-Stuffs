@@ -376,3 +376,14 @@ public class learning {
     }
 }
 ```
+## Ternary Operator / short hand if else
+```java
+public class learning {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        String ans = a>b?"Yes":"No";
+        System.out.println(ans);
+    }
+}
+```
