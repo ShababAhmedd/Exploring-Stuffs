@@ -257,3 +257,45 @@ public class learning {
     }
 }
 ```
+<br></br>
+
+# Taking Input
+## Integer
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("Enter a number");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();   // taking an integer input
+        System.out.println("The number is " + a);
+    }
+}
+```
+## String
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("Enter a name");
+        Scanner sc = new Scanner(System.in);
+        String nm = sc.next();
+        System.out.println("The name is " + nm);
+    }
+}
+```
+## Full line
+```java
+import java.util.Scanner;
+
+public class learning {
+    public static void main(String[] args) {
+        System.out.println("Enter full name");
+        Scanner sc = new Scanner(System.in);
+        String nm = sc.nextLine();
+        System.out.println("The full name is " + nm);
+    }
+}
+```
