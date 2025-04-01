@@ -528,7 +528,7 @@ public class learning {
 
 
 # Array
-array declaration
+##array declaration
 ```java
 public class learning {
     
@@ -552,6 +552,19 @@ public class learning {
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
+        }
+    }
+
+}
+```
+## For each loop
+```java
+public class learning {
+
+    public static void main(String[] args) {
+        char[] arr = {'a','b', 'c'};
+        for (char temp : arr) {
+            System.out.println(temp);
         }
     }
 
