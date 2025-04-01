@@ -504,6 +504,7 @@ public class learning {
 <br></br>
 
 # Functions
+Finding the Maximum of Two Numbers
 ```java
 public class learning {
 
