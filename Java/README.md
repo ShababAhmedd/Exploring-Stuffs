@@ -528,7 +528,7 @@ public class learning {
 
 
 # Array
-declaring an array
+array declaration
 ```java
 public class learning {
     
