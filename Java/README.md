@@ -501,3 +501,24 @@ public class learning {
 
 }
 ```
+
+# Functions
+```java
+public class learning {
+
+    public static int findMax(int x, int y) {
+        int max;
+        if (x > y)
+            max = x;
+        else
+            max = y;
+        return max;
+    }
+
+    public static void main(String[] args) {
+        int maxVal = findMax(10, 20);
+        System.out.println(maxVal);
+    }
+
+}
+```
