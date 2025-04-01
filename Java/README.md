@@ -424,3 +424,23 @@ public class learning {
     }
 }
 ```
+## Nested Loop
+```java
+public class learning {
+
+    public static void main(String[] args) {
+
+         for (int i = 0; i <= 2; i++) {  // outer loop
+
+            for (int j = 0; j <= 2; j++) {  // inner loop
+                System.out.print(i + "," + j + " ");
+            }
+
+            System.out.println();
+
+        }
+
+    }
+
+}
+```
