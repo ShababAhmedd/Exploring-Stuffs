@@ -486,8 +486,6 @@ public class learning {
 ```
 ## Do While Loop
 ```java
-import java.util.Scanner;
-
 public class learning {
 
     public static void main(String[] args) {
