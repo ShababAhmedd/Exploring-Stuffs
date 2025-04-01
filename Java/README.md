@@ -461,3 +461,26 @@ public class learning {
 
 }
 ```
+```java
+import java.util.Scanner;
+
+public class learning {
+
+    public static void main(String[] args) {
+
+        boolean flag = true;
+        String ch;
+        Scanner sc = new Scanner(System.in);
+
+        while (flag) {
+            String temp = sc.next();
+
+            if (temp.equals("q")) flag = false;
+            else System.out.println(temp);
+        }
+
+
+    }
+
+}
+```
