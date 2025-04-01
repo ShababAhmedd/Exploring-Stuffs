@@ -424,7 +424,7 @@ public class learning {
     }
 }
 ```
-### Nested Loop
+### Nested For Loop
 ```java
 public class learning {
 
