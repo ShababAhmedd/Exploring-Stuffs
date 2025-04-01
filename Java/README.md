@@ -523,3 +523,7 @@ public class learning {
 
 }
 ```
+check prime number between 1 to 100.
+```java
+
+```
