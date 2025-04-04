@@ -943,3 +943,12 @@ public class StringManipulations {
     }
 }
 ```
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Mashrur Safir Shabab";
+        int first_char = str.indexOf("Sa");
+        System.out.println(str.substring(first_char, first_char + 5));
+    }
+}
+```
