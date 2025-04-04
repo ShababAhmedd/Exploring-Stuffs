@@ -901,3 +901,19 @@ public class StringManipulations {
     }
 }
 ```
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String money = "100.50";
+        String[] m = money.split("\\.");
+
+        String dollar = m[0];
+        String cents = m[1];
+
+        int n1 = Integer.parseInt(dollar);
+        int n2 = Integer.parseInt(cents);
+
+        System.out.println(n1 + n2);
+    }
+}
+```
