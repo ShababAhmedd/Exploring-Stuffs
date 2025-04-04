@@ -952,3 +952,12 @@ public class StringManipulations {
     }
 }
 ```
+## .trim()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "    Java    ";
+        System.out.println(str.trim());
+    }
+}
+```
