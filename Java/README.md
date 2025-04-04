@@ -738,7 +738,7 @@ import java.util.HashMap;
 
 public class FindUniqueValuesInArray {
     public static void main(String[] args) {
-        HashMap hashMap = new HashMap();
+        HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("Bangladesh", "Dhaka");
         hashMap.put("Sri Lanka", "Colombo");
         hashMap.put("Pakistan", "Islamabad");
@@ -752,7 +752,7 @@ import java.util.HashMap;
 
 public class FindUniqueValuesInArray {
     public static void main(String[] args) {
-        HashMap hashMap = new HashMap();
+        HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("Bangladesh", "Dhaka");
         hashMap.put("Sri Lanka", "Colombo");
         hashMap.put("Pakistan", "Islamabad");
