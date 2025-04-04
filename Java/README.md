@@ -814,7 +814,7 @@ public class StringManipulations {
     }
 }
 ```
-## .length()
+## .length
 ```java
 public class StringManipulations {
     public static void main(String[] args) {
@@ -834,13 +834,23 @@ public class StringManipulations {
     }
 }
 ```
-## .toLowerCase
+## .toLowerCase()
 ```java
 public class StringManipulations {
     public static void main(String[] args) {
         String str = "Hello Java";
         char[] arr = str.toCharArray();
         System.out.println(String.valueOf(arr[0]).toLowerCase());
+    }
+}
+```
+## .length()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+//        char[] arr = str.toCharArray();
+        System.out.println(str.length());
     }
 }
 ```
