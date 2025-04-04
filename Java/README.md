@@ -849,7 +849,6 @@ public class StringManipulations {
 public class StringManipulations {
     public static void main(String[] args) {
         String str = "Hello Java";
-//        char[] arr = str.toCharArray();
         System.out.println(str.length());
     }
 }
