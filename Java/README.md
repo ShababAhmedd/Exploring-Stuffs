@@ -631,3 +631,17 @@ public class arrlist {
     }
 }
 ```
+## .get()
+```java
+import java.util.ArrayList;
+
+public class arrlist {
+    public static void main(String[] args) {
+        ArrayList num = new ArrayList();
+        num.add(1);
+        num.add(2);
+        num.add(3);
+        System.out.println(num.get(0));
+    }
+}
+```
