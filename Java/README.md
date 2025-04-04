@@ -889,3 +889,15 @@ public class StringManipulations {
     }
 }
 ```
+## .split()
+```java
+import java.util.Arrays;
+
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        String[] arr = str.split(" ");
+        System.out.println(Arrays.toString(arr));
+    }
+}
+```
