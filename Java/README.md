@@ -853,3 +853,12 @@ public class StringManipulations {
     }
 }
 ```
+## .charAt()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        System.out.println(str.charAt(0));
+    }
+}
+```
