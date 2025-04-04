@@ -824,3 +824,13 @@ public class StringManipulations {
     }
 }
 ```
+## printing last character array
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        char[] arr = str.toCharArray();
+        System.out.println(arr[arr.length-1]);
+    }
+}
+```
