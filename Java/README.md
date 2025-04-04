@@ -871,3 +871,12 @@ public class StringManipulations {
     }
 }
 ```
+## .equals()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        System.out.println(str.equals("Hello Java"));
+    }
+}
+```
