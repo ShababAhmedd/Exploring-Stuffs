@@ -760,3 +760,16 @@ public class FindUniqueValuesInArray {
     }
 }
 ```
+```java
+import java.util.HashMap;
+
+public class FindUniqueValuesInArray {
+    public static void main(String[] args) {
+        HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+        hashMap.put(1, "One");
+        hashMap.put(2, "Two");
+        hashMap.put(3, "Three");
+        System.out.println(hashMap.get(1));
+    }
+}
+```
