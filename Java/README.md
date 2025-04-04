@@ -645,3 +645,18 @@ public class arrlist {
     }
 }
 ```
+## .remove()
+```java
+import java.util.ArrayList;
+
+public class arrlist {
+    public static void main(String[] args) {
+        ArrayList num = new ArrayList();
+        num.add(1);
+        num.add(2);
+        num.add(3);
+        num.remove(0);
+        System.out.println(num);
+    }
+}
+```
