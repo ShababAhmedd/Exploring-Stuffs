@@ -814,3 +814,13 @@ public class StringManipulations {
     }
 }
 ```
+## .length()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        char[] arr = str.toCharArray();
+        System.out.println(arr.length);
+    }
+}
+```
