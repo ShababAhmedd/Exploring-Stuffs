@@ -729,3 +729,20 @@ public class MyHashSet {
     }
 }
 ```
+<br></br>
+
+# Hash Map
+## .put()
+```java
+import java.util.HashMap;
+
+public class FindUniqueValuesInArray {
+    public static void main(String[] args) {
+        HashMap hashMap = new HashMap();
+        hashMap.put("Bangladesh", "Dhaka");
+        hashMap.put("Sri Lanka", "Colombo");
+        hashMap.put("Pakistan", "Islamabad");
+        System.out.println(hashMap);
+    }
+}
+```
