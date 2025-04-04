@@ -862,3 +862,12 @@ public class StringManipulations {
     }
 }
 ```
+## .contains()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        System.out.println(str.contains("Java"));
+    }
+}
+```
