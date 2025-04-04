@@ -917,3 +917,12 @@ public class StringManipulations {
     }
 }
 ```
+## .substring()
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Mashrur Safir Shabab";
+        System.out.println(str.substring(14));
+    }
+}
+```
