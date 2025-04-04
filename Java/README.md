@@ -961,3 +961,14 @@ public class StringManipulations {
     }
 }
 ```
+## StringBuilder
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        char[] arr = {'M', 'a', 's', 'h', 'r', 'u', 'r', ' ', 'S', 'a', 'f', 'i', 'r', ' ', 'S', 'h', 'a', 'b', 'a', 'b'};
+        StringBuilder sb = new StringBuilder();
+        sb.append(arr);
+        System.out.println(sb);
+    }
+}
+```
