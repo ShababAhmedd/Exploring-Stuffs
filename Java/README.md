@@ -665,7 +665,6 @@ public class arrlist {
 # Hash Set
 ## .add()
 ```java
-import java.util.ArrayList;
 import java.util.HashSet;
 
 public class MyHashSet {
