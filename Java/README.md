@@ -834,3 +834,13 @@ public class StringManipulations {
     }
 }
 ```
+## .toLowerCase
+```java
+public class StringManipulations {
+    public static void main(String[] args) {
+        String str = "Hello Java";
+        char[] arr = str.toCharArray();
+        System.out.println(String.valueOf(arr[0]).toLowerCase());
+    }
+}
+```
