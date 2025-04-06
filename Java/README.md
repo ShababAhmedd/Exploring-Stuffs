@@ -972,3 +972,20 @@ public class StringManipulations {
     }
 }
 ```
+<br></br>
+
+# Read
+```java
+package jsonManipulation;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileReadWrite {
+    public static void main(String[] args) throws IOException {
+        FileWriter writer = new FileWriter("test.txt", true);
+        writer.write("\nHello Js");
+        writer.close();
+    }
+}
+```
