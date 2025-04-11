@@ -997,3 +997,19 @@ public class FileReadWrite {
     }
 }
 ```
+
+# OOP
+## Constructor
+```java
+package OOP;
+
+public class Constructor {
+    public Constructor (String name) {
+        System.out.println(name + " called the constructor");
+    }
+
+    public static void main(String[] args) {
+        new Constructor("Safir");
+    }
+}
+```
