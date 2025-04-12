@@ -1015,3 +1015,24 @@ public class Constructor {
     }
 }
 ```
+e.g.
+```java
+package OOP;
+
+public class ProductSell {
+    public int vat;
+    ProductSell(int vat) {
+        this.vat = vat;
+    }
+
+    public int sellItem(int itemCount, int price) {
+        return (price + (itemCount*price)*vat/100);
+    }
+
+    public static void main(String[] args) {
+        ProductSell productSell = new ProductSell(15);
+        int price = productSell.sellItem(1, 100);
+        System.out.println(price);
+    }
+}
+```
