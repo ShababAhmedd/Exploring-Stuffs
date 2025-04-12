@@ -1036,3 +1036,37 @@ public class ProductSell {
     }
 }
 ```
+## Inheritence
+overridding
+polymorphism
+```java
+package OOP;
+
+public class Inheritence {
+    public static void main(String[] args) {
+//        Bird eagle = new Bird();
+//        Bird eagle = new Bird();
+//        Eagle eagle = new Eagle();
+//        eagle.canFly();
+
+//        Penguin penguin = new Penguin();
+        Bird penguin = new Penguin();   // overrides the parent class
+        penguin.canFly();
+    }
+}
+
+class Bird {
+    public void canFly() {
+        System.out.println("Birds can fly");
+    }
+}
+
+class Eagle  extends Bird{   // Eagle is the sub-class of Bird
+}
+
+class Penguin extends Bird {    // child class extends parent class
+    public void canFly() {  // the properties of child class overrides the properties of parent class
+        System.out.println("Penguin can't fly");
+    }
+}
+```
