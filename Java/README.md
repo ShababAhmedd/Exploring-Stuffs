@@ -1070,3 +1070,23 @@ class Penguin extends Bird {    // child class extends parent class
     }
 }
 ```
+## Overloading
+```java
+package OOP;
+
+public class Overloading {
+
+    public static void calculateSalary(int workingHour, int salaryPerHour) {
+        System.out.println(workingHour*salaryPerHour);
+    }
+
+    public static void calculateSalary(int workingHour, int salaryPerHour, int overtime) {
+        System.out.println((workingHour*salaryPerHour)+(overtime*salaryPerHour));
+    }
+
+    public static void main(String[] args) {
+        calculateSalary(8, 500);
+        calculateSalary(8, 500, 2);
+    }
+}
+```
