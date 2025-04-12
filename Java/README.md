@@ -1045,7 +1045,7 @@ package OOP;
 public class Inheritence {
     public static void main(String[] args) {
 //        Bird eagle = new Bird();
-//        Bird eagle = new Bird();
+//        Bird eagle = new Eagle();
 //        Eagle eagle = new Eagle();
 //        eagle.canFly();
 
