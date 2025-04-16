@@ -1090,3 +1090,36 @@ public class Overloading {
     }
 }
 ```
+
+
+## Abstraction
+```java
+package OOP;
+
+public class Abstraction {
+    public static void main(String[] args) {
+        Food rice = new Rice();
+        rice.eatFood();
+
+        Food biscuit = new Biscuit();
+        biscuit.eatFood();
+
+    }
+}
+
+abstract class Food{
+    abstract void eatFood();
+}
+
+class Rice extends Food{
+    public void eatFood() {
+        System.out.println("Rice is cooking");
+    }
+}
+
+class Biscuit extends Food {
+    public void eatFood() {
+        System.out.println("Biscuit is not needed to cook");
+    }
+}
+```
