@@ -1123,3 +1123,35 @@ class Biscuit extends Food {
     }
 }
 ```
+
+## Interface
+```java
+package OOP;
+
+public interface Interface {
+    void drawShape();
+}
+
+class Rectangle implements Interface  {
+    public void drawShape() {
+        System.out.println("Drawing Rectangle");
+    }
+}
+
+class Circle implements Interface {
+    public void drawShape() {
+        System.out.println("Drawing Circle");
+    }
+}
+
+class TestInterface{
+    public static void main(String[] args) {
+        Interface rectangle = new Rectangle();
+        rectangle.drawShape();
+
+        Interface circle = new Circle();
+        circle.drawShape();
+    }
+}
+```
+#
