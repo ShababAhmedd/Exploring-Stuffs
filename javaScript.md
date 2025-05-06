@@ -29,3 +29,10 @@ myPromise.then(
     console.log("world")
 })
 ```
+```js
+async function func_wait() {
+    return "hello"
+}
+
+console.log(func_wait())
+```
