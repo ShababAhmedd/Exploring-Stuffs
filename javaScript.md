@@ -38,11 +38,11 @@ console.log(func_wait())
 ```
 
 
-# write File
+# Write File
 
 ## Asynchronous
 
-```
+```js
 const fs = require("fs");
 
 fs.writeFile("file.txt", "Hello World", (err) => {
@@ -53,7 +53,7 @@ fs.writeFile("file.txt", "Hello World", (err) => {
 
 ## Synchronous
 
-```
+```js
 const fs = require("fs");
 // fs.writeFileSync("file.txt", "Hello Worlds!");
 fs.appendFileSync("file.txt", "\nHello Dhaka!");
