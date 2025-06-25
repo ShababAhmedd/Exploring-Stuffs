@@ -37,13 +37,24 @@ async function func_wait() {
 console.log(func_wait())
 ```
 
-# write File
-## Asynchronous
-```
 
+# write File
+
+## Asynchronous
+
+```
+const fs = require("fs");
+
+fs.writeFile("file.txt", "Hello World", (err) => {
+  if (err) throw err;
+  console.log("File written successfully");
+});
 ```
 
 ## Synchronous
-```
 
+```
+const fs = require("fs");
+// fs.writeFileSync("file.txt", "Hello Worlds!");
+fs.appendFileSync("file.txt", "\nHello Dhaka!");
 ```
