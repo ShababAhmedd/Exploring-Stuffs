@@ -36,3 +36,14 @@ async function func_wait() {
 
 console.log(func_wait())
 ```
+
+# write File
+## Asynchronous
+```
+
+```
+
+## Synchronous
+```
+
+```
