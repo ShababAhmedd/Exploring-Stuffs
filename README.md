@@ -15,3 +15,12 @@ This project contains functional test cases for the Dmoney REST API using Postma
 - Merchant can view their balance
 - Includes positive and negative test cases for each scenario
 - All test cases implemented in a structured Postman Collection
+
+## Technologies Used
+
+- **Postman** – for creating and running API test cases
+- **Newman** – for CLI-based automated test execution
+- **JavaScript (Test Scripts)** – for test assertions in Postman
+- **JSON** – for API request/response bodies
+- **Git & GitHub** – for version control and code hosting
+- **Google Sheets** – for documenting bugs and improvement suggestions and writing standard test cases
