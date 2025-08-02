@@ -1,1 +1,1 @@
-# Exploring-Stuffs
+# Dmoney REST API QA Automation
