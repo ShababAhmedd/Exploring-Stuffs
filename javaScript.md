@@ -199,8 +199,8 @@ jsonData.push(newUser);
 
 fs.writeFileSync("./user.json", JSON.stringify(jsonData, null, 2));
 ```
-
-# Anonymous function
+# Function
+## Anonymous function
 ```js
 let greeting = function () {
   console.log("Hello World");
@@ -208,7 +208,7 @@ let greeting = function () {
 
 greeting();
 ```
-# arrow function
+## arrow function
 ```js
 let greeting = () => {
   console.log("Hello World");
@@ -224,6 +224,17 @@ let sum = (a, b) => a + b;
 
 console.log(sum(10, 10));
 ```
+
+## Default parameter usuage
+```js
+function greet(name = "shabab") {
+  console.log("Hello" + " " + name);
+}
+
+greet("Safir");
+```
+
+
 
 # Promise
 ```js
