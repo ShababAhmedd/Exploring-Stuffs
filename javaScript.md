@@ -44,6 +44,13 @@ let arrReduce = num.reduce((acc, cur) => acc + cur, 0);
 console.log(arrReduce);
 ```
 
+# Join
+```js
+let num = [1, 2, 3, 4, 5];
+let arrJoin = num.join("-");
+console.log(arrJoin);
+```
+
 # Promise
 ```js
 console.log("Hello")
