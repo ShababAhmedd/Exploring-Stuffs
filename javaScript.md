@@ -51,6 +51,13 @@ let arrJoin = num.join("-");
 console.log(arrJoin);
 ```
 
+# Find
+```js
+let num = [1, 2, 3, 4, 5];
+let arrFind = num.find(num => num > 3);
+console.log(arrFind);
+```
+
 # Promise
 ```js
 console.log("Hello")
