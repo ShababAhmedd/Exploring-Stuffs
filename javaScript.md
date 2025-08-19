@@ -254,6 +254,20 @@ const { sayHello, sayGoodBye } = require("./myFunc");
 sayHello();
 sayGoodBye();
 ```
+### ------------------------------------------------------------
+index1.js
+```js
+const multiply = (a, b) => a * b;
+const divide = (a, b) => a / b;
+
+export { multiply, divide };
+```
+index2.js
+```js
+import { multiply, divide } from "./index1.js";
+
+console.log(multiply(2, 3));
+```
 
 ## Call back function
 ```js
