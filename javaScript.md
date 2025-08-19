@@ -336,14 +336,6 @@ fs.appendFileSync("file.txt", "\nHello Dhaka!");
 ```
 
 # Read File
-## Synchronous
-```js
-const fs = require("fs");
-
-const data = fs.readFileSync("file.txt", "utf-8");
-console.log(data);
-```
-
 ## Asynchronous 
 ```js
 const fs = require("fs");
@@ -355,4 +347,12 @@ fs.readFile("file.txt", "utf-8", (err, data) => {
   }
   console.log(data);
 });
+```
+
+## Synchronous
+```js
+const fs = require("fs");
+
+const data = fs.readFileSync("file.txt", "utf-8");
+console.log(data);
 ```
