@@ -37,6 +37,13 @@ let arrFilter = num.filter((num) => num % 2 === 0);
 console.log(arrFilter);
 ```
 
+# Reduce
+```js
+let num = [1, 2, 3, 4, 5];
+let arrReduce = num.reduce((acc, cur) => acc + cur, 0);
+console.log(arrReduce);
+```
+
 # Promise
 ```js
 console.log("Hello")
