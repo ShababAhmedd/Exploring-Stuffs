@@ -163,6 +163,28 @@ console.log(name);
 console.log(profession);
 console.log(domain);
 ```
+# JSON
+user.json
+```json
+[
+  {
+    "username": "Mashrur",
+    "password": "1234"
+  },
+  {
+    "username": "Mashrur",
+    "password": "1234"
+  }
+]
+```
+## Reading JSON
+```js
+const jsonData = require("./user.json");
+
+let name = jsonData[0].username;
+console.log(name);
+```
+
 
 # Promise
 ```js
