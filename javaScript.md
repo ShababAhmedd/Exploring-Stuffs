@@ -72,6 +72,15 @@ let num = [1, 2, 3, 4, 5];
 num.reverse();
 console.log(num);
 ```
+
+## concat()
+```js
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let combinedArr = arr1.concat(arr2)
+console.log(combinedArr)
+```
+
 # Rest Operator
 ```js
 function sum(...num) {
