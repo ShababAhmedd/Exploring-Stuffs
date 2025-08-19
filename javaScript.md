@@ -272,6 +272,12 @@ setTimeout(
 );
 ```
 
+## Self calling function
+```js
+(function (name) {
+  console.log(name);
+})("safir");
+```
 
 # Promise
 ```js
