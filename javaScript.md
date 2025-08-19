@@ -172,7 +172,7 @@ user.json
     "password": "1234"
   },
   {
-    "username": "Mashrur",
+    "username": "Safir",
     "password": "1234"
   }
 ]
@@ -185,6 +185,20 @@ let name = jsonData[0].username;
 console.log(name);
 ```
 
+## Writing JSON
+```js
+const fs = require("fs");
+const jsonData = require("./user.json");
+
+const newUser = {
+  username: "shabab",
+  password: "1234",
+};
+
+jsonData.push(newUser);
+
+fs.writeFileSync("./user.json", JSON.stringify(jsonData, null, 2));
+```
 
 # Promise
 ```js
