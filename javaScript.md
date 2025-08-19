@@ -2,6 +2,12 @@
 ```js
 console.log("Hello World")
 ```
+# Slice
+```
+let num = [1, 2, 3, 4, 5];
+let slicedArr = num.slice(1, 4);
+console.log(slicedArr);
+```
 
 # Promise
 ```js
