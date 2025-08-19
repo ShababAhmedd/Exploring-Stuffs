@@ -82,6 +82,14 @@ let sumNum = sum(1, 2, 3, 4, 5);
 console.log(sumNum);
 ```
 
+# Spread Operator
+```js
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let combinedArr = [...arr1, ...arr2];
+console.log(combinedArr)
+```
+
 # Promise
 ```js
 console.log("Hello")
