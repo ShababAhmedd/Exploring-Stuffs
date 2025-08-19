@@ -30,6 +30,13 @@ let arrMap = num.map(num => num * num);
 console.log(arrMap)
 ```
 
+# Filter
+```js
+let num = [1, 2, 3, 4, 5];
+let arrFilter = num.filter((num) => num % 2 === 0);
+console.log(arrFilter);
+```
+
 # Promise
 ```js
 console.log("Hello")
