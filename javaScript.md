@@ -24,14 +24,14 @@ num.splice(1, 3, 0);
 console.log(num);
 ```
 
-## map
+## map()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrMap = num.map(num => num * num);
 console.log(arrMap)
 ```
 
-## filter
+## filter()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrFilter = num.filter((num) => num % 2 === 0);
