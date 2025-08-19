@@ -343,3 +343,16 @@ const fs = require("fs");
 const data = fs.readFileSync("file.txt", "utf-8");
 console.log(data);
 ```
+
+## Synchronous
+```js
+const fs = require("fs");
+
+fs.readFile("file.txt", "utf-8", (err, data) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log(data);
+});
+```
