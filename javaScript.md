@@ -2,25 +2,32 @@
 ```js
 console.log("Hello World")
 ```
-# Slice
+# Array
+## Slice
 ```js
 let num = [1, 2, 3, 4, 5];
 let slicedArr = num.slice(1, 4);
 console.log(slicedArr);
 ```
 
-# Splice
-## remove
+## Splice
+### remove
 ```js
 let num = [1, 2, 3, 4, 5];
 num.splice(1, 3);
 console.log(num);
 ```
-## replace
+### replace
 ```js
 let num = [1, 2, 3, 4, 5];
 num.splice(1, 3, 0);
 console.log(num);
+```
+# Map
+```js
+let num = [1, 2, 3, 4, 5];
+let arrMap = num.map(num => num * num);
+console.log(arrMap)
 ```
 
 # Promise
