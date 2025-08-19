@@ -72,6 +72,15 @@ let num = [1, 2, 3, 4, 5];
 num.reverse();
 console.log(num);
 ```
+# Rest Operator
+```js
+function sum(...num) {
+  return num.reduce((acc, cur) => acc + cur, 0);
+}
+
+let sumNum = sum(1, 2, 3, 4, 5);
+console.log(sumNum);
+```
 
 # Promise
 ```js
