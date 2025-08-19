@@ -208,7 +208,7 @@ let greeting = function () {
 
 greeting();
 ```
-arrow function
+# arrow function
 ```js
 let greeting = () => {
   console.log("Hello World");
