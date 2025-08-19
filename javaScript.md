@@ -234,6 +234,26 @@ function greet(name = "shabab") {
 greet("Safir");
 ```
 
+## Calling functions from another page
+myFunc.js
+```js
+let sayHello = function () {
+  console.log("Hello");
+};
+
+let sayGoodBye = function () {
+  console.log("Good Bye");
+};
+
+module.exports = { sayHello, sayGoodBye };
+```
+index.js
+```js
+const { sayHello, sayGoodBye } = require("./myFunc");
+
+sayHello();
+sayGoodBye();
+```
 
 
 # Promise
