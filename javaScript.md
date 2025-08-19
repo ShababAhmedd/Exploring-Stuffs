@@ -255,6 +255,23 @@ sayHello();
 sayGoodBye();
 ```
 
+## Call back function
+```js
+let msg = () => {
+  console.log("Message shown after 3s");
+};
+
+setTimeout(msg, 3000);
+```
+```js
+setTimeout(
+    () => {
+        console.log("Message shown after 3s");
+    }, 
+    3000
+);
+```
+
 
 # Promise
 ```js
