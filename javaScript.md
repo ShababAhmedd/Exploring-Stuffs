@@ -110,6 +110,7 @@ let person = {
 console.log(person.name)
 ```
 
+## array of objects
 ```js
 let person = [
   {
@@ -125,6 +126,21 @@ let person = [
 ];
 
 console.log(person[1].name)
+```
+
+## Object Destructuring
+```js
+let person = 
+  {
+    name: "Mashrur",
+    profession: "researcher",
+    domain: "Computer Vision",
+  };
+
+const {name, profession, domain} = person;
+console.log(name);
+console.log(profession);
+console.log(domain)
 ```
 
 # Promise
