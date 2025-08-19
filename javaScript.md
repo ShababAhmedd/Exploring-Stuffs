@@ -360,7 +360,15 @@ console.log(data);
 # Delete File
 ## Asynchronous 
 ```js
+const fs = require("fs");
 
+fs.unlink("file.txt", (err) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log("File Deleted Successfully!");
+});
 ```
 ## Synchronous
 ```js
