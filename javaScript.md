@@ -3,14 +3,14 @@
 console.log("Hello World")
 ```
 # Array
-## Slice
+## slice()
 ```js
 let num = [1, 2, 3, 4, 5];
 let slicedArr = num.slice(1, 4);
 console.log(slicedArr);
 ```
 
-## Splice
+## splice()
 ### remove
 ```js
 let num = [1, 2, 3, 4, 5];
@@ -23,46 +23,54 @@ let num = [1, 2, 3, 4, 5];
 num.splice(1, 3, 0);
 console.log(num);
 ```
-## Map
+
+## map
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrMap = num.map(num => num * num);
 console.log(arrMap)
 ```
 
-## Filter
+## filter
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrFilter = num.filter((num) => num % 2 === 0);
 console.log(arrFilter);
 ```
 
-## Reduce
+## reduce()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrReduce = num.reduce((acc, cur) => acc + cur, 0);
 console.log(arrReduce);
 ```
 
-## Join
+## join()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrJoin = num.join("-");
 console.log(arrJoin);
 ```
 
-## Find
+## find()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrFind = num.find(num => num > 3);
 console.log(arrFind);
 ```
 
-## Includes
+## includes()
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrIncludes = num.includes(5);
 console.log(arrIncludes);
+```
+
+## reverse()
+```js
+let num = [1, 2, 3, 4, 5];
+num.reverse();
+console.log(num);
 ```
 
 # Promise
