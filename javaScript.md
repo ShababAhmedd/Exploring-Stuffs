@@ -23,39 +23,46 @@ let num = [1, 2, 3, 4, 5];
 num.splice(1, 3, 0);
 console.log(num);
 ```
-# Map
+## Map
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrMap = num.map(num => num * num);
 console.log(arrMap)
 ```
 
-# Filter
+## Filter
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrFilter = num.filter((num) => num % 2 === 0);
 console.log(arrFilter);
 ```
 
-# Reduce
+## Reduce
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrReduce = num.reduce((acc, cur) => acc + cur, 0);
 console.log(arrReduce);
 ```
 
-# Join
+## Join
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrJoin = num.join("-");
 console.log(arrJoin);
 ```
 
-# Find
+## Find
 ```js
 let num = [1, 2, 3, 4, 5];
 let arrFind = num.find(num => num > 3);
 console.log(arrFind);
+```
+
+## Includes
+```js
+let num = [1, 2, 3, 4, 5];
+let arrIncludes = num.includes(5);
+console.log(arrIncludes);
 ```
 
 # Promise
