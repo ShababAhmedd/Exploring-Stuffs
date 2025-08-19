@@ -334,3 +334,10 @@ const fs = require("fs");
 // fs.writeFileSync("file.txt", "Hello Worlds!");
 fs.appendFileSync("file.txt", "\nHello Dhaka!");
 ```
+
+# Read File
+## Asynchronous
+const fs = require("fs");
+
+const data = fs.readFileSync("file.txt", "utf-8");
+console.log(data);
