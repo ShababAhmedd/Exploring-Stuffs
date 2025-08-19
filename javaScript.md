@@ -99,6 +99,34 @@ let combinedArr = [...arr1, ...arr2];
 console.log(combinedArr)
 ```
 
+# Object
+```js
+let person = {
+  name : "Mashrur Safir Shabab", 
+  professon: "researcher",
+  domain : "Computer Vision"
+}
+
+console.log(person.name)
+```
+
+```js
+let person = [
+  {
+    name: "Mashrur",
+    professon: "researcher",
+    domain: "Computer Vision",
+  },
+  {
+    name: "Safir",
+    professon: "researcher",
+    domain: "Quantum Computing",
+  },
+];
+
+console.log(person[1].name)
+```
+
 # Promise
 ```js
 console.log("Hello")
