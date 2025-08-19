@@ -143,6 +143,27 @@ console.log(profession);
 console.log(domain)
 ```
 
+## Accessing object from another page
+student.js
+```js
+let person = {
+  name: "Mashrur",
+  profession: "researcher",
+  domain: "Computer Vision",
+};
+
+module.exports = { person };
+```
+index.js
+```js
+const { person } = require("./student.js");
+
+const { name, profession, domain } = person;
+console.log(name);
+console.log(profession);
+console.log(domain);
+```
+
 # Promise
 ```js
 console.log("Hello")
