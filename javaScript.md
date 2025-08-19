@@ -200,6 +200,23 @@ jsonData.push(newUser);
 fs.writeFileSync("./user.json", JSON.stringify(jsonData, null, 2));
 ```
 
+# Anonymous function
+```js
+let greeting = function () {
+  console.log("Hello World");
+};
+
+greeting();
+```
+arrow function
+```js
+let greeting = () => {
+  console.log("Hello World");
+};
+
+greeting()
+```
+
 # Promise
 ```js
 console.log("Hello")
