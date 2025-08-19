@@ -8,6 +8,12 @@ let num = [1, 2, 3, 4, 5];
 let slicedArr = num.slice(1, 4);
 console.log(slicedArr);
 ```
+#Splice
+```js
+let num = [1, 2, 3, 4, 5];
+num.splice(1, 3);
+console.log(num);
+```
 
 # Promise
 ```js
