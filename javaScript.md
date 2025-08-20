@@ -23,7 +23,8 @@ a = "shabab";   // can only be updated
 if (true) {
   let name = "Mashrur";   // declared inside block
 }
-console.log(name);   // compiling the code will throw error since it will only work inside the block where it is defined 
+console.log(name);
+// compiling the code will throw error since it will only work inside the block where it is defined 
 ```
 
 # Array
