@@ -8,11 +8,22 @@ let x = null;
 console.log(typeof(x));
 ```
 
+
 ## let
+
+### It can be updated, but can not be redeclared.
 ```js
 let a = "mashrur";
 let a = "safir";    // can not be redeclared
 a = "shabab";   // can only be updated
+```
+
+### It has block scope (only works inside {} where it is defined)
+```js
+if (true) {
+  let name = "Mashrur";   // declared inside block
+}
+console.log(name);   // compiling the code will throw error since it will only work inside the block where it is defined 
 ```
 
 # Array
