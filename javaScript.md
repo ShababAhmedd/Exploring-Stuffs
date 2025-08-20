@@ -56,6 +56,25 @@ console.log(str);   // will throw TypeError
 ```
 
 
+# Equality
+
+## Loose Equality (==)
+only checks the value and not the data type
+```js
+let a = 10;
+let b = "10";
+console.log(a == b);   // will output true
+```
+
+## Strict Equality (===)
+takes into consideration both the value and data type
+```js
+let a = 10;
+let b = "10";
+console.log(a == b);   // will output false
+```
+
+
 # Array
 ## slice()
 ```js
