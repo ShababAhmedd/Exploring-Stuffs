@@ -75,6 +75,14 @@ console.log(a == b);   // will output false
 ```
 
 
+# String
+
+## length
+```js
+let x = "Hello World!";
+console.log(x.length);
+```
+
 # Array
 ## slice()
 ```js
