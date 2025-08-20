@@ -128,6 +128,17 @@ let b = "World!";
 console.log(`${a} ${b}`);
 ```
 
+
+# Math
+
+## parseInt()
+```js
+let a = 10;
+let b = "20";
+
+console.log(a + parseInt(20));
+```
+
 # Array
 ## slice()
 ```js
