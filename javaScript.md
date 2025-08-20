@@ -112,6 +112,22 @@ let x = "Hello World!";
 console.log(x.slice(0, 5));
 ```
 
+## concat
+
+### +
+```js
+let a = "Hello";
+let b = "World!";
+console.log(a + " " + b);
+```
+
+### template literals ${}
+```js
+let a = "Hello";
+let b = "World!";
+console.log(`${a} ${b}`);
+```
+
 # Array
 ## slice()
 ```js
