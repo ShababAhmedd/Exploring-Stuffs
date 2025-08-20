@@ -83,6 +83,12 @@ let x = "Hello World!";
 console.log(x.length);
 ```
 
+## toUpperCase()
+```js
+let x = "Hello World!";
+console.log(x.toUpperCase());
+```
+
 # Array
 ## slice()
 ```js
