@@ -101,6 +101,17 @@ let x = "    hello    ";
 console.log(x.trim());
 ```
 
+## slice()
+```js
+let x = "Hello World!";
+console.log(x.slice(6));
+```
+
+```js
+let x = "Hello World!";
+console.log(x.slice(0, 5));
+```
+
 # Array
 ## slice()
 ```js
