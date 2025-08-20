@@ -95,6 +95,12 @@ let x = "Hello World!";
 console.log(x.toLowerCase());
 ```
 
+## trim()
+```js
+let x = "    hello    ";
+console.log(x.trim());
+```
+
 # Array
 ## slice()
 ```js
