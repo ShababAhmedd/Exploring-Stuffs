@@ -52,7 +52,7 @@ For constants, values can not change.
 ```js
 const str = "hello";
 str = "world";
-console.log(str);   // will throw type error
+console.log(str);   // will throw TypeError
 ```
 
 
