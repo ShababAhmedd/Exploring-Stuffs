@@ -29,7 +29,8 @@ console.log(name);
 
 ## var (Old way, not recommended)
 
-### Redeclaration (is allowed)
+### Redeclaration 
+Redeclaration is allowed
 ```js
 var string = "hello";
 var string = "world";   // will not throw error
@@ -43,6 +44,10 @@ if (true) {
 }
 console.log(name);   // accessible outside the block
 ```
+
+## const
+- For constants, values can not change. 
+
 
 # Array
 ## slice()
