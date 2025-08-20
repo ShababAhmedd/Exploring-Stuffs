@@ -46,7 +46,14 @@ console.log(name);   // accessible outside the block
 ```
 
 ## const
-- For constants, values can not change. 
+For constants, values can not change.
+- Can not be updated or redeclared.
+- Has block scope like let.
+```js
+const str = "hello";
+str = "world";
+console.log(str);   // will throw type error
+```
 
 
 # Array
