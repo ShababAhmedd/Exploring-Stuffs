@@ -2,6 +2,12 @@
 ```js
 console.log("Hello World")
 ```
+## typeof()
+```js
+let x = null;
+console.log(typeof(x));
+```
+
 # Array
 ## slice()
 ```js
