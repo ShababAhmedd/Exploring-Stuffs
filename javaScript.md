@@ -8,6 +8,13 @@ let x = null;
 console.log(typeof(x));
 ```
 
+## let
+```js
+let a = "mashrur";
+let a = "safir";    // can not be redeclared
+a = "shabab";   // can only be updated
+```
+
 # Array
 ## slice()
 ```js
