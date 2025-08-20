@@ -27,6 +27,14 @@ console.log(name);
 // compiling the code will throw error since it will only work inside the block where it is defined 
 ```
 
+## var
+
+###
+```js
+var string = "hello";
+var string = "world";   // will not throw error
+```
+
 # Array
 ## slice()
 ```js
