@@ -27,12 +27,21 @@ console.log(name);
 // compiling the code will throw error since it will only work inside the block where it is defined 
 ```
 
-## var
+## var (Old way, not recommended)
 
-###
+### Redeclaration (is allowed)
 ```js
 var string = "hello";
 var string = "world";   // will not throw error
+console.log(string);   // will print the latest input in the variable
+```
+
+### Not being block Scoped:
+```js
+if (true) {
+  var name = "Mashrur"; // declared inside block
+}
+console.log(name);   // accessible outside the block
 ```
 
 # Array
